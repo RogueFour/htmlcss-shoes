@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.area {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+img {
+    width: 100%;
+}
+
+.model {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.yellow_text {
+    font-size: 4em;
+    text-align: center;
+    color: yellow;
+}
+
+.green_text {
+    font-size: 4em;
+    text-align: center;
+    color: green; 
+}
